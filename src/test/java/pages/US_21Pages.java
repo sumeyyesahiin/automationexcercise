@@ -20,6 +20,4 @@ public class US_21Pages extends BasePage{
     @FindBy(id = "review-section")
     public WebElement alert;
 
-
-
 }
