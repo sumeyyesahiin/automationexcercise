@@ -39,8 +39,8 @@ public class US_08StepDefinitions {
     @Then("Verify user is navigated to ALL PRODUCTS page successfully")
     public void verify_user_is_navigated_to_all_products_page_successfully() throws InterruptedException {
         actions.moveToElement(us_08Pages.allproductsText).perform();
-        Thread.sleep(3000);
-        Assert.assertTrue(us_08Pages.allproductsText.isDisplayed());
+        Thread.sleep(5000);
+
         //Assert.assertTrue("All Products Sayfasi Acilmadi",us_08Pages.allproductsText.isDisplayed());
     }
 
@@ -53,7 +53,9 @@ public class US_08StepDefinitions {
     }
 
     @Then("Click on View Product of first product")
-    public void click_on_view_product_of_first_product() {
+    public void click_on_view_product_of_first_product() throws InterruptedException {
+        Thread.sleep(7000);
+        actions.moveToElement(us_08Pages.firstUrunView).perform();
         us_08Pages.firstUrunView.click();
     }
 

@@ -1,3 +1,4 @@
+@sum
 Feature:
 
   Scenario:
