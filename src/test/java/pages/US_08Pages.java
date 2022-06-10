@@ -11,7 +11,7 @@ public class US_08Pages extends BasePage {
     @FindBy(xpath = "//*[text()=' Products']")
     public WebElement productsButton;
 
-    @FindBy(xpath = "//h2[@class='title text-center']")
+    @FindBy(xpath = "//div[@class='features_items']")
     public WebElement allproductsText;
 
     @FindBy(xpath = "(//h4[@class='panel-title'])[1]")

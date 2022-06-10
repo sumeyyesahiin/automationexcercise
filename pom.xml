@@ -151,7 +151,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>bordo.io.practise</projectName>
+                            <projectName>tr01sum</projectName>
                             <outputDirectory>${project.build.directory}</outputDirectory>
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
