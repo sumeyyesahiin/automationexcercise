@@ -1,4 +1,4 @@
-@US11
+@smoke
 Feature:
 
   Scenario: US11 Verify Subscription in Cart page

@@ -1,4 +1,3 @@
-@smoke
 Feature:
 
   Scenario: US06 Contact Us Form
