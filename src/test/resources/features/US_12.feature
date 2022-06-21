@@ -1,4 +1,4 @@
-@US12
+@smoke
 Feature:
 
   Scenario: US12 Add Products in Cart

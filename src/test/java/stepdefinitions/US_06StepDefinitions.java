@@ -62,9 +62,12 @@ public class US_06StepDefinitions {
         //us_06Pages.uploadFileButton.click();
         //C:\Users\zynpk\OneDrive\Masaüstü
         //"C:\Users\zynpk\Downloads\35682.jpg"
-        String dosyaYolu=System.getProperty("user.home")+"\\Downloads\\35682.jpg";
+        String dosyaYolu=System.getProperty("user.home")+"C:\\Users\\sumsu\\Pictures\\Screenshots";
         us_06Pages.uploadFileButton.sendKeys(dosyaYolu);
+
     }
+
+
 
     @Then("zey Click Submit button")
     public void zey_click_submit_button() {

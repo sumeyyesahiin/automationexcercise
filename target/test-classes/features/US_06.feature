@@ -1,4 +1,3 @@
-@US06
 Feature:
 
   Scenario: US06 Contact Us Form

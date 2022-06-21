@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="207.64">
+    <testcase classname="Unknown" name="US11 Verify Subscription in Cart page" time="38.888">
+        <system-out>
+            <![CDATA[Given zey Lunch browser.....................................................passed
+And zey Negate to 'url'.....................................................passed
+Then zey Verify that home page is visible successfully......................passed
+And zey Click Cart button...................................................passed
+And zey Scroll down to footer...............................................passed
+And zey Verify text Subscription............................................passed
+And zey Enter email address in input and click arrow button.................passed
+And zey Verify success message You have been successfully subscribed is visible.passed
+And zey Closed pages........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Unknown" name="US12 Add Products in Cart" time="55.451">
+        <system-out>
+            <![CDATA[Given zey Lunch browser.....................................................passed
+And zey Negate to 'url'.....................................................passed
+Then zey Verify that home page is visible successfully......................passed
+And zey Click Products button...............................................passed
+And zey Hover over first product and click Add to cart......................passed
+And zey Click Continue Shopping button......................................passed
+And zey Hover over second product and click Add to cart.....................passed
+And zey Click View Cart button..............................................passed
+And zey Verify both products are added to Cart..............................passed
+And zey Verify their prices, quantity and total price.......................passed
+And zey Closed pages........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US_13 Verify Product quantity in Cart" name="TC_01 Verify Product quantity in Cart" time="21.933">
+        <system-out>
+            <![CDATA[Given U Navigate to url.....................................................passed
+Then U Verify that home page is visible successfully........................passed
+Then U Click View Product for any product on home page......................passed
+Then U Verify product detail is opened......................................passed
+Then U increase quantity to four............................................passed
+Then U Click Add to cart button.............................................passed
+Then U Click View Cart button...............................................passed
+And U Verify that product is displayed in cart page with exact quantity.....passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_2" time="55.851">
+        <system-out>
+            <![CDATA[Given Launch browser........................................................passed
+And Navigate to url 'url'...................................................passed
+And Click on Products button................................................passed
+Then Verify user is navigated to ALL PRODUCTS page successfully.............passed
+And Click on View Product of first product..................................passed
+And Verify Write Your Review is visible.....................................passed
+And Enter name, email and review............................................passed
+And Click Submit button.....................................................passed
+Then Verify success message Thank you for your review.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_2" time="34.892">
+        <system-out>
+            <![CDATA[Given Launch browser........................................................passed
+And Navigate to url 'url'...................................................passed
+Then Verify that home page is visible successfully..........................passed
+And Scroll down page to bottom..............................................passed
+And Verify SUBSCRIPTION is visible..........................................passed
+And Click on arrow at bottom right side to move upward......................passed
+Then Verify that page is scrolled up and Full-Fledged practice website for Automation Engineers text is visible on screen.passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
